@@ -1,0 +1,24 @@
+{
+  "name": "websupport/jane-openapi",
+  "type": "library",
+  "description": "Jane library for SDK generation & runtime",
+  "license": "proprietary",
+  "require": {
+    "php": "^7.2",
+    "jane-php/open-api-runtime": "6.0.*"
+  },
+  "require-dev": {
+    "jane-php/open-api-3": "6.0.*"
+  },
+  "config": {
+    "preferred-install": {
+      "*": "dist"
+    },
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "WebSupport\\JaneOpenApi\\": "/src"
+    }
+  }
+}
